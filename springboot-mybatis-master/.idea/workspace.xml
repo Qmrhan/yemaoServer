@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fab4949f-71c9-4072-aaa2-cd9a1014e303" name="默认的" comment="生成文件">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/controller/AccessTbController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/controller/AppXmlController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/controller/ApplyInformationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/controller/ApplyOperationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/controller/HelloController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/mapper/AccessTbMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/mapper/AppXmlMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/mapper/ApplyInformationMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/mapper/ApplyOperationMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/model/AccessTbEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/model/AppXmlEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/model/ApplyInformationEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/model/ApplyOperationEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/service/AccessTbService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/service/AppXmlService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/service/ApplyInformationService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/no7player/service/ApplyOperationService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/AccessTbMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/AppXmlMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/ApplyInformationMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/ApplyOperationMapper.xml" afterPath="" />
+    <list default="true" id="fab4949f-71c9-4072-aaa2-cd9a1014e303" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -119,8 +98,8 @@
       <file leaf-file-name="SendTemplate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/no7player/Util/wangyi/SendTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="475">
+              <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -154,6 +133,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -582,7 +564,7 @@
       <workItem from="1513216391846" duration="7367000" />
       <workItem from="1513561552393" duration="2725000" />
       <workItem from="1513573620730" duration="2135000" />
-      <workItem from="1513576513065" duration="34000" />
+      <workItem from="1513576513065" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="生成文件">
       <created>1513574181831</created>
@@ -598,11 +580,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513574451122</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="生成文件">
+      <created>1513576584141</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513576584141</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50275000" />
+    <option name="totallyTimeSpent" value="50328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -901,8 +890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/no7player/Util/wangyi/SendTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="475">
+          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
           <folding />
         </state>
       </provider>
