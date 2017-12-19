@@ -8,17 +8,53 @@
     <result column="USER_NAME" property="USER_NAME" />
     <result column="PASSWORD" property="PASSWORD" />
     <result column="PHONE" property="PHONE" />
+    <result column="CLASS_ID" property="CLASS_ID" />
   </resultMap>
 
   <parameterMap id="UserEntity" type="cn.no7player.model.UserEntity"/>
 
-  <sql id="Base_Column_List">
-    ID, REAL_NAME, USER_NAME, PASSWORD
-  </sql>
-  <select id="queryUser" resultMap="BaseResultMap" parameterType="java.lang.String">
-    select
-    <include refid="Base_Column_List" />
-    from app_user
-    where ID = #{ID}
+
+  <select id="queryUser" resultType="String" parameterType="java.util.HashMap">
+    select * from app_user
+    where phone = #{phone}
   </select>
+
+  <insert id="addUser" parameterType="java.util.Map">
+    INSERT INTO app_user(
+    <if test="name != null">
+      user_name,
+    </if>
+    <if test="password != null">
+      password,
+    </if>
+    <if test="phone != null">
+      phone,
+    </if>
+    <if test="create_time != null">
+      create_time,
+    </if>
+    <if test="CLASS_ID != null">
+      class_id,
+    </if>
+      ID
+    )VALUES (
+    <if test="name != null">
+      #{name},
+    </if>
+    <if test="password != null">
+      #{password},
+    </if>
+    <if test="phone != null">
+      #{phone},
+    </if>
+    <if test="create_time != null">
+      #{create_time},
+    </if>
+    <if test="CLASS_ID != null">
+      #{CLASS_ID},
+    </if>
+    #{ID}
+    )
+  </insert>
+
 </mapper>

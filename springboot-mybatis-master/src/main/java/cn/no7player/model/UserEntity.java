@@ -6,6 +6,8 @@ public class UserEntity {
     private String USER_NAME;
     private String PASSWORD;
     private String PHONE;
+    private String CLASS_ID;
+    private String CREATE_TIME;
 
     public String getID() {
         return ID;
@@ -46,4 +48,21 @@ public class UserEntity {
     public void setPHONE(String PHONE) {
         this.PHONE = PHONE;
     }
+
+    public String getCLASS_ID() {
+        return CLASS_ID;
+    }
+
+    public void setCLASS_ID(String CLASS_ID) {
+        this.CLASS_ID = CLASS_ID;
+    }
+
+    public String getCREATE_TIME() {
+        return CREATE_TIME;
+    }
+
+    public void setCREATE_TIME(String CREATE_TIME) {
+        this.CREATE_TIME = CREATE_TIME;
+    }
+
 }
